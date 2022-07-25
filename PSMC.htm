@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>PSMC Team</title>
+</head>
+<body>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_UTF-8" />
+<link rel="stylesheet" type="text/css" href="sample.css" />
+<div id="pagebody">
+
+	<!-- ヘッダ -->
+	<div id="header"><h1><a href="index.html">PSMC Team</a></h1></div>
+	
+	<!-- メインメニュー -->
+	<ul id="menu">
+		<li id="menu01"><a href="xxx.html">Home</a></li>
+		<li id="menu02"><a href = "//nas-twn2/root/PSMC/定期作業" target="_blank">定期作業</a></li>
+		<li id="menu03"><a href="Bob.html" target="_blank">Tool Web</a></li>
+		<li id="menu04"><a href="xxx.html" target="_blank">Tips</a></li>
+		<li id="menu05"><a href="xxx.html" target="_blank">Contact</a></li>
+	</ul>
+
+	<!-- サブメニュー（左カラム） -->
+	<div id="submenu">
+		<div id="submenu_header">目的で探す</div>
+		<ul id="submenu_body">
+			<li><a href = "//nas-twn2/root/PSMC/定期作業/ADP更換紀錄/ADP交換記録.htm" target="_blank">ADP</a></li>
+			<li><a href = "//nas-twn2/root/PSMC/定期作業/Disk balance紀錄/Disk Balance.htm" target="_blank">Disk Balance</a></li>
+
+		</ul>
+	</div>
+
+	<!-- コンテンツ（中央と右の2カラム） -->
+	<div id="content">
+		<!-- ニュース（中央カラム） -->
+		<div id="news">
+			<h2>ニュース</h2>
+			<h3>公告</h3>
+			<p>
+			▼ 高松 X一
+			</p>
+			<p><img src="松哥.jpg" alt="高松健一" width="250" height="350" /></p>
+			<hr/>
+		</div>
+		<!-- ピックアップ（右カラム） -->
+		<div id="pickup">
+			<h2>ピックアップ</h2>
+			<ul>
+			<!-- 摺疊展開按鈕開始 -->
+			<div onclick="obj=document.getElementById('menu1').style; obj.display=(obj.display=='none')?'block':'none';">
+			<a style="cursor:pointer;">▼ 會員限定</a>
+			</div>
+			<!-- 摺疊展開按鈕寫完了 -->
+			<!-- 此處開始是摺疊的內容 -->
+			<div id="menu1" style="display:none;clear:both;">
+
+				<!DOCTYPE html>
+				<html lang="en">
+				<head>
+				<title>PSMC Team</title>
+				</head>
+				<body>
+				 	<form name="formno1">
+				 	<input type="password" name="passwd">
+				 	<input type="button" value="OK" onclick="goLoginPage();">
+				 </form>
+				 <script>
+				 function goLoginPage()
+				 {
+				 passwd=document.formno1.passwd.value;
+				 if(passwd=="PSMC"){location.href="esbd0-zpzfw.gif";}else{alert('沒有權限')}	
+				 }
+				</script>
+				</body>
+				</html>
+
+			<!-- 摺疊內容完了,點擊展開就可 -->
+			</div>
+			<!-- 此處是摺疊內容結束 -->
+			</ul>
+		</div>
+	</div>
+
+
+	<br>
+<b><font size="+3" face="Century" color="#000099"><marquee scrolldelay="0" scrollamount="13" width="796" height="50" align="BOTTOM" bgcolor="#ffffff" loop="0" behavior="scroll" direction="left">　PSMC Team版權所有 點擊各連結可檢視內容　</marquee></font></b>
+	<!-- フッタ -->
+	<div id="footer"><address>Copyright (c) 住友重機械イオンテクノロジー株式会社 新竹本社 Reserved.</address></div>
+
+</div>
+</body>
+</html>
